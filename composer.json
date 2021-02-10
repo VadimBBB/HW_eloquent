@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Hillel\\": "./src",
+      "Models\\": "./src/Models"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "illuminate/database": "^7.22",
+    "illuminate/events": "^7.22"
+  }
+}
